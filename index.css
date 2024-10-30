@@ -1,0 +1,225 @@
+body {
+    margin: 0;
+    background-color: #eee;
+}
+
+.main-container {
+    width: 600px;
+    margin: 0 auto;
+    font-family:'Smythe', Helvetica, sans-serif;
+}
+
+main {
+    padding: 30px 35px;
+
+    background-color: #fff;
+}
+header {
+    background-image: url(./images/acaeaea44c5e3a8cd7159c5d52f26662.jpeg);
+    background-size: cover;
+    background-position: 70% 65%;
+    top: 300px;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 167px;
+    
+    color: #fff; 
+    display: flex;
+}
+.header-txt {
+    margin: auto 0 auto 50px;
+}
+
+.header-txt p {
+    font-size: 22.42px;
+    margin-top: 5px;
+}
+
+.header-txt h1 {
+    margin-bottom: 0;
+}
+
+.content-container {
+    
+}
+
+.menu-item {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.emoji-pic {
+    font-size: 80px;
+}
+
+.emoji-details {
+    display: flex;
+}
+
+/* Item Details */
+.menu-item {
+    border-bottom: 1px solid #D2D2D2;
+}
+.item-details {
+    line-height: 10px;
+    padding-bottom: 30px;
+}
+.item-details h2 {
+    font-size: 28px;
+    font-weight: 400;
+}
+.item-details p {
+    font-size: 16px;
+    color: #8B8B8B;
+}
+.price-tag {
+    font-size: 20px;
+    font-weight: 400;
+}
+.add-btn {
+    font-family:'Times New Roman', Times, serif;
+    margin-right: 25px;
+    padding: 0 10px;
+    border-radius: 50%;
+    font-size: 32px;
+    font-weight: 200;
+    border: 1.5px solid #aaa;
+    color: #3C3C3C;
+    margin-bottom: 20px;
+    background-color: white;
+}
+.add-btn:hover {
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+}
+.order-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+}
+.your-order-text {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 50px;
+}
+.order-list-item-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.order-list-item-left h3{
+    font-size: 28px;
+    font-weight: 400;
+}
+.order-list-item-left p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #BBBBBB;
+}
+
+.total-price {
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.total-price-text {
+    font-size: 28px;
+    margin: 0;
+}
+
+.total-price-tag {
+    font-size: 28px;
+    font-weight: 800;
+    margin: 20px 0;
+}
+
+.green-btn {
+    background-color: #16DB99;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    height: 60px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#order-section {
+    visibility: hidden;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal {
+    width: 450px;
+    height: 500px;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 0 30px;
+    border-radius: 4px;
+    
+}
+.modal h4 {
+    font-size: 24px;
+}
+.modal input {
+    width: 390px;
+    height: 70px;
+    border-radius: 4px;
+    border: 1.3px solid black;
+    padding: 0 30px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.close-modal-btn {
+    background-color: #fff;
+    border: none;
+    font-size: 20px;
+}
+.close-modal-btn:hover{
+    cursor: pointer;
+    color: red;
+}
+.upper-modal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.after-purchase-text {
+    background-color: #ECFDF5;
+    color: #065F46;
+    font-size: 32px;
+    margin: 40px 0;
+    padding: 30px 15px;
+    text-align: center;
+}
+.remove-btn:hover {
+    cursor: pointer;
+    color: red;
+}
+.hidden {
+    display: none;
+}
+
